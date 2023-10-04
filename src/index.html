@@ -12,17 +12,45 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body style="background-color: rgb(39, 117, 39);">
+    <div class=" container  m-5">
+      <div class="bg-light   " id="contenedor">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="" id="logoUp">♠</h1>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <h1 class="my-5 " id="cartValue">8</h1>
+          </div>
+        </div>
+
+        <div class="row text-end">
+          <div class="col-12 ">
+            <h1 class="mt-5 x" id="logoDown">♠</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-3 input-group">
+        <button type="button" class="btn btn-primary" onclick="generarCarta()">
+          Generar Carta
+        </button>
+
+        <input
+          type="text"
+          placeholder="Ingresa el alto"
+          class="input-group-text"
+          id="inputAlto"
+        />
+        <input
+          type="text"
+          placeholder="Ingresa el ancho"
+          class="input-group-text"
+          id="inputAncho"
+        />
       </div>
     </div>
   </body>

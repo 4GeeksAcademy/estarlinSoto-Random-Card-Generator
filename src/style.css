@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+}
+
+.x {
+  rotate: 180deg;
+  display: flex;
+}
+
+#contenedor {
+  border-radius: 25px;
+  width: 600px;
+}
+
+h1 {
+  font-size: 200px;
+}
